@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Mi Portafolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap" rel="stylesheet">
+    <script defer src="https://use.fontawesome.com/releases/v5.15.4/js/all.js" integrity="sha384-rOA1PnstxnOBLzCLMcre8ybwbTmemjzdNlILg8O7z1lUkLXozs4DHonlDtnE7fpc" crossorigin="anonymous"></script>
+    <!-- Referencia de la hoja de estilo de Css -->
+    <link href="css/normalize.css" rel="stylesheet">
+    <link href="css/reset.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/nav__bar.css" rel="stylesheet">
+    <link href="css/introduction.css" rel="stylesheet">
+    <link href="css/about__me.css" rel="stylesheet">
+    <link href="css/skills.css" rel="stylesheet">
+    <link href="css/hobbies.css" rel="stylesheet">
+    <link href="css/education.css" rel="stylesheet">
+    <link href="css/experience.css" rel="stylesheet">
+    <link href="css/contact.css" rel="stylesheet">
+    <link href="css/footer.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+</head>
+<body>
+    <div class="sidebar" id="mySidebar">
+        <section>
+            <button onclick="closeSidebar()" class="button_sidebar bar-md">Cerrar</button>
+            <div class="about__me">
+                <h2 class="about__me__title">Sobre mi</h2>
+                <span class="about__me__subtitle">Nombre</span>
+                <p class="about__me__content">Jhonatan Restrepo Montoya</p>
+                <p class="about__me__subtitle">Edad</p>
+                <p class="about__me__content">29 Años</p>
+                <p class="about__me__subtitle">Nacionalidad</p>
+                <p class="about__me__content">Colombiano</p>
+                <p class="about__me__subtitle">Correo electrónico</p>
+                <p class="about__me__content">jhona_e_mo@hotmail.com</p>
+            </div>
+            <div class="social__media">
+                <ul class="social__media__sidebar">
+                    <li class="socialmedia__item"><a class="socialmedia__icon" href="https://github.com/Jhonny1293"><i class="fab fa-github" title="github"></i></a></li>
+                    <li class="socialmedia__item"><a class="socialmedia__icon" href="https://www.linkedin.com/in/jhonatan-restrepo-montoya/" title="linkedin"><i class="fab fa-linkedin"></i></a></li>
+                    <li class="socialmedia__item"><a class="socialmedia__icon" download href="./img/cv.pdf" title="Descargar Hoja de Vida"><i class="fas fa-cloud-download-alt"></i></a></li>
+                    </li>
+                </ul>
+            </div>
+        </section>
+    </div>
+    <div class="briefcase__complete">
+        <div>
+            <header class="nav__bar">
+                <button class="button bar-md" onclick="openSidebar()">☰</button>
+                <h1 class="nav__bar__title">Jhonatan Restrepo Montoya</h1>
+            </header>
+            <nav class="menu">
+                <ul class="nav__bar__menu">
+                    <li class="nav__bar__item"><a class="nav__bar__link" href="#sobre-mi">Sobre mi</a></li>
+                    <li class="nav__bar__item"><a class="nav__bar__link" href="#skills">Formación</a></li>
+                    <li class="nav__bar__item"><a class="nav__bar__link" href="#hobbies">Proyectos</a></li>
+                    <li class="nav__bar__item"><a class="nav__bar__link" href="#formacion">Hobbies</a></li>
+                    <li class="nav__bar__item"><a class="nav__bar__link" href="#contacto">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+        <section>
+            <div class="introduction">
+                <img class="introduction__photo" src="img/imagen_perfil.png" alt="Foto de perfil">
+                <div class="introduction__content">
+                    <h2 class="introduction__presentation">Hola, bienvenido a mi portafolio como Desarrollador Web.</h2>
+                    <p class="introduction__subpresentation">Te quiero contar que pude encontrar en el mundo del Desarrolo Web un espacio de continuo aprendizaje y grandes experiencias que me han permitido descubrir una gran pasión.</p>
+                    <p class="introduction__subpresentation">En este momento, vas a conocer un poco más sobre mi y el gran valor que tengo para hacer parte de tu empresa.</p>
+                </div>
+            </div>
+        </section>
+        <section class="skills__hobbies">
+            <div class="hobbies">
+                <h3 class="hobbies__title">Skills</h3>
+                    <div class="hobbies__content">
+                        <div class="hobbies__box">
+                            <ul class="hobbies__list">
+                                <li class="hobbies__icon"><img class="hobbies__img" src="img/logo-html5.png" alt="Logo HTML5"></i></li>
+                                <li class="hobbies__name"> HTML 5</li>
+                            </ul>
+                        </div>
+                        <div class="hobbies__box">
+                            <ul class="hobbies__list">
+                                <li class="hobbies__icon"><img class="hobbies__img" src="img/logo-css3.png" alt="Logo CSS3"></li>
+                                <li class="hobbies__name">CSS 3</li>
+                            </ul>
+                        </div>
+
+                        <div class="hobbies__box">
+                            <ul class="hobbies__list js">
+                                <li class="hobbies__icon"><img class="hobbies__img" src="img/logo-js.png" alt="Logo JS"></li>
+                                <li class="hobbies__name">JAVA SCRIPT</li>
+                            </ul>
+                        </div>
+
+                        <div class="hobbies__box">
+                            <ul class="hobbies__list">
+                                <li class="hobbies__icon"><img class="hobbies__img" src="img/logo-php.png" alt="Logo PHP"></li>
+                                <li class="hobbies__name">PHP</li>
+                            </ul>
+                        </div>
+
+                        <div class="hobbies__box">
+                            <ul class="hobbies__list">
+                                <li class="hobbies__icon"> <img class="hobbies__img" src="img/logo-react.png" alt="Logo React"> </li>
+                                <li class="hobbies__name">REACT</li>
+                            </ul>
+                        </div>
+
+                        <div class="hobbies__box">
+                            <ul class="hobbies__list">
+                                <li class="hobbies__icon"> <img class="hobbies__img" src="img/logo-nodejs.png" alt="Logo Node JS"> </li>
+                                <li class="hobbies__name">
+                                    NODE <br/> JS
+                                </li>
+                            </ul>
+                        </div>
+                 </div>
+            </div>
+            <div class="hobbies">
+                <h3 class="hobbies__title">Hobbies</h3>
+                    <div class="hobbies__content">
+                        <div class="hobbies__box">
+                            <ul class="hobbies__list">
+                                <li class="hobbies__icon"><img class="hobbies__img" src="img/Leer-logo.png" alt="Libro"></li>
+                                <li class="hobbies__name">LEER</li>
+                            </ul>
+                        </div>
+                        <div class="hobbies__box">
+                            <ul class="hobbies__list">
+                                <li class="hobbies__icon"> <img class="hobbies__img" src="img/Nadar-logo.png" alt="Persona en el agua"></li>
+                                <li class="hobbies__name">NADAR</li>
+                            </ul>
+                        </div>
+                        <div class="hobbies__box">
+                            <ul class="hobbies__list">
+                                <li class="hobbies__icon"> <img class="hobbies__img" src="img/Musica-logo.png" alt="Corazón escuchando música"></li>
+                                <li class="hobbies__name">ESCUCHAR MÚSICA</li>
+                            </ul>
+                        </div>
+                        <div class="hobbies__box">
+                            <ul class="hobbies__list">
+                                <li class="hobbies__icon"><img class="hobbies__img" src="img/Viajar-logo.png" alt="Maleta"></li>
+                                <li class="hobbies__name">VIAJAR</li>
+                            </ul>
+                        </div>
+                        <div class="hobbies__box">
+                            <ul class="hobbies__list">
+                                <li class="hobbies__icon"> <img class="hobbies__img" src="img/Familia-logo.png" alt="Casa"> </li>
+                                <li class="hobbies__name">ESTAR EN FAMILIA</li>
+                            </ul>
+                        </div>
+                        <div class="hobbies__box">
+                            <ul class="hobbies__list">
+                                <li class="hobbies__icon"> <img class="hobbies__img" src="img/Videojuegos-logo.png" alt="Control de videojuegos"> </li>
+                                <li class="hobbies__name">VIDEOJUEGOS</li>
+                            </ul>
+                        </div>
+                </div>
+            </div>
+        </section>
+        <section class="hobbies">
+            <h2 class="hobbies__title" >Formación académica</h2>
+            <div class="education__content">
+                <div class="hobbies__box">
+                    <ul class="hobbies__list">
+                        <li class="hobbies__icon"><img class="education__img" src="img/logo-one.png" alt="Logo programa ONE"></li>
+                        <li class="hobbies__name">One Next Education</li>
+                        <li class="education__degree">Curso de programación</li>
+                        <li class="education__date">En curso</li>
+                    </ul>
+                </div>
+                <div class="hobbies__box">
+                    <ul class="hobbies__list">
+                        <li class="hobbies__icon"><img class="education__img" src="img/logo-sena.png" alt="Logo SENA"></li>
+                        <li class="hobbies__name">Servicio Nacional de Aprendizaje</li>
+                        <li class="education__degree">Técnico en Programación de Aplicaciones y Servicios para la Nube</li>
+                        <li class="education__date">En curso</li>
+                    </ul>
+                </div>
+                <div class="hobbies__box">
+                    <ul class="hobbies__list">
+                        <li class="hobbies__icon"><img class="education__img comfenalco" src="img/logo-comfenalco.png" alt="Logo Confenalco"></li>
+                        <li class="hobbies__name">Comfenalco y Fundación View</li>
+                        <li class="education__degree">Curso de PHP y Laravel</li>
+                        <li class="education__date">En curso</li>
+                    </ul>
+                </div>
+                <div class="hobbies__box">
+                    <ul class="hobbies__list">
+                        <li class="hobbies__icon"><img class="education__img" src="img/logo-udea.png" alt="Logo UDEA"></li>
+                        <li class="hobbies__name"><h4>Universidad de Antioquia</h4></li>
+                        <li class="education__degree">Profesional en Administración Sanitaria y Ambiental</li>
+                        <li class="education__date"><p>2012-2017</p></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <section class="experience">
+            <h2 class="experience__title">Experiencia Profesional</h2>
+                <div class="experience__content">
+                    <img class="experience__img" src="img/Encriptador.png" alt="">
+                    <div class="experience__info">
+                        <h2 class="experience__info__title">Encriptador de texto</h2>
+                        <span class="experience__info__text">Challenge Alura Codificador</span>
+                            <div class="experience__description">
+                                <span class="experience__repository"><a href="https://github.com/Jhonny1293/EncriptadorTexto"><button class="experience__button">Repositorio</button></a></span>
+                            </div>
+                    </div>
+                </div>  
+                <div class="experience__content">
+                    <img class="experience__img" src="img/JR-store.png" alt="">
+                    <div class="experience__info">
+                        <h2 class="experience__info__title">E-Commerce</h2>
+                        <span class="experience__info__text">Challenge AluraGeek</span>
+                            <div class="experience__description">
+                                <span class="experience__repository"><a href="https://github.com/alura-challenges/challenge-one-encriptador-latam"><button class="experience__button">Repositorio</button></a></span>
+                            </div>
+                    </div>
+                </div>
+        </section>    
+            <section class="contact">
+                    <div class="contact__content">
+                        <h2 class="contact__title">Contacto</h2>
+                        <span class="contact__text">¿Quieres contactarme?</span>
+                        <span class="contact__text">Complete el siguiente formulario y me pondré en contacto con usted lo antes posible.</span>
+                        <form class="contact__form" name="formulario de contacto">
+                            <div class="contact__form__input">
+                                <label class="contact__input__name" for="contact__name">Nombre</label>
+                                <input class="contact__input" type="text" name="contact__name">
+                            </div>
+                            <div class="contact__form__input">
+                                <label class="contact__input__name" for="contact__name">Email</label>
+                                <input class="contact__input" type="text" name="contact__name">
+                            </div>
+                            <div class="contact__form__input">
+                                <label class="contact__input__name" for="contact__name">Asunto</label>
+                                <input class="contact__input" type="text" name="contact__name">
+                            </div>
+                            <div class="form__end">
+                                <textarea class="contact__form__textarea" rows="5" cols="40" id="message" name="message" placeholder="Mensaje"></textarea>
+                                <button type="submit" class="contact__button">Enviar mensaje</button>
+                            </div>
+                        </form>
+                    </div>
+            </section>
+    
+            <footer class="footer">
+                <div class="footer__rodapie">
+                    <span>Desarrollado por Jhonatan Restrepo Montoya</span>
+                    <span>2023</span>
+                </div>
+            </footer>
+    </div>
+</body>
+<script src="./app.js"></script>
+</body>
+</html>

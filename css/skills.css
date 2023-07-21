@@ -1,0 +1,12 @@
+.skills__hobbies{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+    margin: 0 25px;
+}
+
+@media screen and (max-width: 1024px) { 
+    .skills__hobbies {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
