@@ -1,0 +1,18 @@
+.about__me {
+    font-size: 12px;
+}
+
+.about__me__subtitle {
+    font-weight: bolder;
+}
+
+.about__me__title{
+    font-size: 2rem;
+    text-align: left;
+    margin-bottom: 40px;
+    color: darkslategrey;
+}
+
+.briefcase__complete {
+    width: 100%;
+}

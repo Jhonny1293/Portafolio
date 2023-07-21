@@ -1,0 +1,72 @@
+.education{
+    padding: 40px 20px;
+    align-items: center;
+    text-align: center;
+}
+
+.education__title{
+    font-size: 2rem;
+    margin-bottom: 40px;
+    color: darkslategrey;
+}
+
+.education__content{
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(4, 1fr);
+    width: 100%;
+}
+
+.education__box{
+    border: 1px slategray solid;
+    background-color: transparent;
+    box-shadow: 20px 20px 15px -20px #464646;
+    width: 20%;
+    font-size: 14px;
+    text-align: center;
+}
+
+.education__box:hover{
+    transform: scale(1.1);
+}
+
+.education__list{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 0 5px;
+}
+
+.education__subtitle{
+    font-size: 15px;
+    font-weight: bolder;
+}
+
+.education__degree{
+    font-size: 14px;
+}
+
+.education__degree{
+    font-size: 14px;
+}
+
+.education__img{
+    width: 100px;
+    height: 100px;
+}
+
+.education__img.comfenalco{
+    width: 160px;
+}
+
+@media screen and (max-width: 1024px) {  
+    .education__content{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (max-width: 768px) { 
+    .education__content{
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
