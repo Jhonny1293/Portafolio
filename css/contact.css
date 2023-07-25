@@ -27,6 +27,7 @@
 
 .contact__form{
     margin-top: 10px;
+    text-align: initial;
 }
 
 .contact__form__input{
@@ -63,7 +64,7 @@
 
 .contact__button {
     height: 40px;
-    width: 30%;
+    width: 25%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -74,6 +75,7 @@
     cursor: pointer;
     transition: transform 250ms ease-out;
     transform: scale(1.05);
+    margin-left: 6px;
  }
 
  .contact__button:hover {
