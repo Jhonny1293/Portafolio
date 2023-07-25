@@ -46,7 +46,7 @@
 }
 
 
-@media screen and (max-width: 1024px) {  
+@media screen and (max-width: 1023px) {  
     .hobbies__content{
         grid-template-columns: repeat(2, 1fr);
     }
