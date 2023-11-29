@@ -21,9 +21,9 @@
     box-shadow: 15px 15px 15px -20px #464646;
 }
 
-.hobbies__box:hover{
+/* .hobbies__box:hover{
     transform: scale(1.1);
-}
+} */
 
 .hobbies__list{
     display: flex;
@@ -32,9 +32,9 @@
     padding: 5px 25px;
 }
 
-.hobbies__list:hover{
+/* .hobbies__list:hover{
     cursor: pointer;
-}
+} */
 
 .hobbies__img{
     width: 80px;
