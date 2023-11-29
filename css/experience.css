@@ -9,7 +9,7 @@
 
 .experience__content{
     display: grid;
-    grid-template-columns: 70% 30%;
+    grid-template-columns: 66% 30%;
 }
 
 .experience__title{
@@ -59,7 +59,7 @@
 
 .experience__content{
     display: grid;
-    grid-template-columns: 70% 30%;
+    grid-template-columns: 66% 30%;
     gap: 4%;
 }
 
